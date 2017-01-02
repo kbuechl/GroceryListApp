@@ -1,0 +1,26 @@
+{
+  "name": "GroceryListApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "deep-freeze": "0.0.1",
+    "lodash": "^4.17.3",
+    "node-uuid": "^1.4.7",
+    "react": "15.4.1",
+    "react-native": "0.39.2",
+    "redux-logger": "^2.7.4"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.0.0",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

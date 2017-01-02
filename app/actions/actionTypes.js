@@ -1,0 +1,10 @@
+export const ADD_GROCERY = 'ADD_GROCERY';
+export const TOGGLE_GROCERY = 'TOGGLE_GROCERY';
+export const ADD_LIST = 'ADD_LIST';
+export const DELETE_LIST = 'DELETE_LIST';
+export const RENAME_LIST = 'RENAME_LIST';
+export const SET_SELECTED_LIST = 'SET_SELECTED_LIST';
+export const CLEAR_SELECTED_LIST = 'CLEAR_SELECTED_LIST';
+export const PUSH_NAVIGATION = 'PUSH_NAVIGATION';
+export const POP_NAVIGATION = 'POP_NAVIGATION';
+

@@ -1,0 +1,1 @@
+This project is the first react native project I wrote.  The goal of this project is to become familiar with react native, redux and es6. As I learn more about these items, I will be adding more complexity.
