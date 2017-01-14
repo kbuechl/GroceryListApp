@@ -21,7 +21,7 @@ test('returns initial state', () => {
 
 test('push adds new route', () => {
     let stateBefore = initialState;
-    let action = actions.push('Test Route');
+    let action = actions.pushRoute('Test Route');
     let expected = {
         ...initialState,
         routes: [
@@ -53,7 +53,7 @@ test('pop removes last route', () => {
         ],
     };
 
-    let action = actions.pop();
+    let action = actions.popRoute();
     deepfreeze(action);
     deepfreeze(stateBefore);
 
